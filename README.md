@@ -29,3 +29,13 @@ pip install -e .
 
 ## LLaVA Weights
 Click [here]([https://github.com/haotian-liu/LLaVA/blob/main/docs/MODEL_ZOO.md](https://huggingface.co/liuhaotian/llava-v1.5-7b)) to download pre-trained LLaVA weights. 
+
+## CLI Inference
+
+Perform custom inference with SituLM. It also supports multiple GPUs, 4-bit and 8-bit quantized inference.
+```Shell
+python -m llava.serve.cli \
+    --model-path /path/to/llava-v1.5-7b \
+    --image-file /path/to/image.png
+    --load-4bit
+```
