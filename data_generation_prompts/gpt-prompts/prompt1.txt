@@ -1,0 +1,1 @@
+The image format consists of two separate images within a single file divided by a blank stripe. SR (Situation Recognition) involves understanding the context and details of a scene. Chains of thoughts are sequences of questions and answers that deduce details about the image. What is your mission in the context of SR?

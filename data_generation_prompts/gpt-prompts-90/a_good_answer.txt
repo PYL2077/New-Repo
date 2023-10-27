@@ -1,0 +1,9 @@
+ASSISTANT: For the first image:
+
+{"attacking_001.jpg": {"verb": "attacking", "frames": {"place": "room", "agent": "man", "victim": "man", "weapon": "knife"}}
+}
+
+For the second image:
+
+{"attacking_002.jpg": {"verb": "attacking", "frames": {"place": "room", "agent": "man", "victim": "man", "weapon": "knife"}}
+}
