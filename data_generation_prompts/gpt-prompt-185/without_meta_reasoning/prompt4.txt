@@ -1,1 +1,0 @@
-The following ground truth can be reasoned and deduce from the first image and its 3 chains of thoughts: {'repairing_185.jpg': {'verb': 'repairing', 'frames': {'place': 'outdoor', 'agent': 'man', 'tool': 'hand', 'item': 'bicycle'}}}. Based on the same method, deduce the ground truth for the second image based on its corresponding 3 chains of thoughts. 

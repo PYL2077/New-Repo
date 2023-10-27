@@ -1,1 +1,0 @@
-Given the previous examples of meta-reasoning, apply meta-reasoning to the 3 chains of thoughts for the second image. Generate the meta-reasoning justification and deduce the ground truth for the SECOND image.

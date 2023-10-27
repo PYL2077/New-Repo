@@ -1,1 +1,0 @@
-You receive one image file, but within the file there are two distinct images (first image and second image) separated by a blank stripe. Briefly describe each image.
