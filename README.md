@@ -2,14 +2,14 @@
 ## Installation
 1. Clone this repository and navigate to LLaVA-backbone folder
 ```bash
-git clone https://github.com/haotian-liu/LLaVA.git
-cd LLaVA-backbone
+git clone https://github.com/PYL2077/SituLM.git
+cd SituLM/LLaVA-backbone
 ```
 
 2. Install Package
 ```Shell
-conda create -n llava python=3.10 -y
-conda activate llava
+conda create -n situlm python=3.10 -y
+conda activate situlm
 pip install --upgrade pip  # enable PEP 660 support
 pip install -e .
 ```
@@ -18,13 +18,6 @@ pip install -e .
 ```
 pip install -e ".[train]"
 pip install flash-attn --no-build-isolation
-```
-
-### Upgrade to latest code base
-
-```Shell
-git pull
-pip install -e .
 ```
 
 ## LLaVA Weights
