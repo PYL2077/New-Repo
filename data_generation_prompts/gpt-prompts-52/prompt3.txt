@@ -1,0 +1,1 @@
+Based on the 3 Chains of Thought provided for the first image, can you generate 3 Chains of Thought for the second image in the file?
