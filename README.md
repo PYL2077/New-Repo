@@ -1,17 +1,21 @@
 # SituLM
 ## Installation
-1. Clone this repository and navigate to LLaVA-backbone folder
+1. Clone this repository
 ```bash
 git clone https://github.com/PYL2077/SituLM.git
-cd SituLM/LLaVA-backbone
 ```
 
 2. Install Package
 ```Shell
+cd SituLM/LLaVA-backbone
 conda create -n situlm python=3.10 -y
 conda activate situlm
 pip install --upgrade pip  # enable PEP 660 support
 pip install -e .
+cd ../
+cd SAM
+pip install -e .
+pip install opencv-python pycocotools matplotlib onnxruntime onnx
 ```
 
 3. Install additional packages for training cases
@@ -21,7 +25,10 @@ pip install flash-attn --no-build-isolation
 ```
 
 ## LLaVA Weights
-Click [here]([https://github.com/haotian-liu/LLaVA/blob/main/docs/MODEL_ZOO.md](https://huggingface.co/liuhaotian/llava-v1.5-7b)) to download pre-trained LLaVA weights. 
+Click [here](https://github.com/haotian-liu/LLaVA/blob/main/docs/MODEL_ZOO.md](https://huggingface.co/liuhaotian/llava-v1.5-7b) to download pre-trained LLaVA weights. 
+
+## SWiG Dataset
+Click [here](https://swig-data-weights.s3.us-east-2.amazonaws.com/images_512.zip) to download the SWiG dataset
 
 ## CLI Inference
 
